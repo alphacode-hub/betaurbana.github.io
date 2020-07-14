@@ -1,0 +1,202 @@
+/* width */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+::-webkit-scrollbar {
+  width: 8px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7d93e3; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7d93e3;
+  border-radius: 5px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #272f3f; }
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white; }
+
+.imgheader {
+  background: #7d93e3 url("../static/img/urbanism.jpg") no-repeat scroll center;
+  background-size: cover;
+  height: 100vh; }
+
+.imgheaderblur {
+  background: rgba(9, 94, 116, 0.3);
+  height: 100vh; }
+
+.bgheader {
+  background-color: #7d93e3;
+  box-shadow: 2px 2px 8px black;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 100; }
+
+.menu-item {
+  border-bottom: 5px solid transparent;
+  font-size: .9em;
+  transition: 1s;
+  text-align: center; }
+  .menu-item:hover {
+    border-bottom: 5px solid white; }
+
+.btn {
+  width: 100%;
+  padding: 5px 20px;
+  color: white; }
+  .btn:hover, .btn:visited {
+    color: white; }
+
+.bgpv {
+  position: relative;
+  top: 30vh;
+  padding: 20px; }
+
+.item-titulo {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #1f1f1f;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase; }
+
+.item-subtitulo {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px #1f1f1f;
+  font-weight: bold; }
+
+.item-subtitulo span {
+  background-color: #7d93e3;
+  color: black;
+  text-shadow: 1px 1px 1px white; }
+
+.vermas {
+  border: 5px solid #4d4c4d;
+  background-color: #7d93e3;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 5px; }
+  .vermas:hover {
+    border: 5px solid #4d4c4d;
+    background-color: #4d4c4d;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 10px black; }
+
+/**************************** falta corregir *************************/
+.prodserv {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold; }
+
+.card {
+  box-shadow: 0 1px 2px black; }
+
+.card:hover {
+  background-color: #7d93e3;
+  color: white; }
+
+.titulo-servicio {
+  color: black;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #1f1f1f; }
+
+.bgmodal {
+  background-color: rgba(125, 147, 227, 0.9);
+  box-shadow: 4px 4px 8px black; }
+
+.exampleModal1 {
+  color: black;
+  background: white url(../static/img/servicio1.jpg) no-repeat fixed center;
+  background-size: cover; }
+
+.exampleModal2 {
+  color: black;
+  background: white url(../static/img/servicio2.jpg) no-repeat fixed center;
+  background-size: cover; }
+
+.exampleModal3 {
+  color: black;
+  background: white url(../static/img/servicio3.jpg) no-repeat fixed center;
+  background-size: cover; }
+
+.titulo-nosotros {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #1f1f1f; }
+
+.titulo-contacto {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px #1f1f1f; }
+
+.contacto {
+  padding: 10px; }
+
+.contacto div {
+  padding: 10px; }
+
+.contacto span {
+  font-size: 1.5em;
+  color: black;
+  background-color: #7d93e3; }
+
+.contacto div i {
+  font-size: 1.9em;
+  color: #7d93e3; }
+
+.imgcontact {
+  background: #7d93e3 url("../static/img/contacto.jpg") no-repeat scroll left;
+  background-size: cover; }
+
+.imgcontactblur {
+  background: rgba(39, 47, 63, 0.5); }
+
+.bgnosotros {
+  background-color: #272f3f; }
+
+.bgfooter {
+  background: #272f3f; }
+
+.close-button i {
+  font-size: 1em;
+  color: #e60000;
+  border-radius: 50%;
+  text-shadow: 1px 1px 2px #1f1f1f; }
+
+.accordion-title {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  background-color: #7d93e3; }
+
+.rrss i {
+  font-size: 2em;
+  margin: 10px;
+  color: white; }
+
+i {
+  font-size: 4em; }
+
+.img-us {
+  width: 50%;
+  clip-path: circle(50% at 50% 50%); }
+
+.card-content-us {
+  color: white;
+  text-align: center; }
+
+.marca {
+  color: white; }
+
+[class=modal-content] {
+  background-color: grey;
+  text-justify: auto; }

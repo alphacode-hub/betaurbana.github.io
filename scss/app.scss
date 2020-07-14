@@ -1,0 +1,214 @@
+@import "components/scrollbar";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+$sombraTxt: 1px 1px 2px rgb(31, 31, 31);
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: hsla(0,0%,100%,1);
+}
+.imgheader {
+    background: hsla(227,64%,69%,1) url('../static/img/urbanism.jpg') no-repeat scroll center;
+    background-size: cover;
+    height: 100vh;
+}
+.imgheaderblur {
+    // background: hsla(210, 23%, 79%, .3);
+    background: rgba(9, 94, 116, 0.3);
+    height: 100vh;
+}
+.bgheader {
+    background-color: hsla(227,64%,69%,1);
+    // background-color: hsla(223, 100%, 21%, 1);
+    box-shadow: 2px 2px 8px black;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.menu-item {
+    border-bottom: 5px solid transparent;
+    font-size: .9em;
+    transition: 1s;
+    text-align: center;
+    &:hover {
+        border-bottom: 5px solid white;
+    }
+}
+    
+.btn {
+    width: 100%;
+    padding: 5px 20px;
+    color: white;
+    &:hover, &:visited {
+        color: white;
+    }
+}
+.bgpv {
+    position: relative;
+    top: 30vh;
+    padding: 20px;
+}
+.item-titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: $sombraTxt;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+.item-subtitulo {
+    font-size: 1.5rem;
+    text-shadow: $sombraTxt;
+    font-weight: bold;
+}
+.item-subtitulo span {
+    background-color: hsla(227,64%,69%,1);
+    color: black;
+    text-shadow: 1px 1px 1px white;
+}
+.vermas {
+    border: 5px solid hsla(330,1%,30%,1);
+    background-color: hsla(227,64%,69%,1);
+    padding: 10px 40px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    &:hover {
+        // border: 2px solid hsla(227,64%,69%,1);
+        border: 5px solid hsla(330,1%,30%,1);
+        // background-color: hsla(227,64%,69%,.5);
+        background-color: hsla(330,1%,30%,1);
+        color: white;
+        border-radius: 5px;
+        box-shadow: 4px 4px 10px hsla(0, 100%, 0, 1);
+    }
+}
+
+
+
+/**************************** falta corregir *************************/
+.prodserv {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card {
+    box-shadow: 0 1px 2px black;
+}
+.card:hover {
+    background-color: hsla(227,64%,69%,1);
+    color: white;
+}
+.titulo-servicio {
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: $sombraTxt;
+}
+.bgmodal {
+    background-color: hsla(227,64%,69%,.9);
+    box-shadow: 4px 4px 8px black;
+}
+.exampleModal1 {
+    color: black;
+    background: white url(../static/img/servicio1.jpg)no-repeat fixed center;
+    background-size: cover;
+}
+.exampleModal2 {
+    color: black;
+    background: white url(../static/img/servicio2.jpg)no-repeat fixed center;
+    background-size: cover;
+}
+.exampleModal3 {
+    color: black;
+    background: white url(../static/img/servicio3.jpg)no-repeat fixed center;
+    background-size: cover;
+}
+.titulo-nosotros {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: $sombraTxt;
+}
+.titulo-contacto {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: $sombraTxt;
+}
+.contacto {
+    padding: 10px;
+    
+}
+.contacto div {
+    padding: 10px;
+}
+.contacto span {
+    font-size: 1.5em;
+    color: black;
+    background-color: hsla(227,64%,69%,1);
+}
+.contacto div i {
+    font-size: 1.9em;
+    color: hsla(227,64%,69%,1);
+}
+.imgcontact {
+    background: hsla(227,64%,69%,1) url('../static/img/contacto.jpg') no-repeat scroll left;
+    background-size: cover;
+}
+.imgcontactblur {
+    background: hsla(219,23%,20%,.5);
+}
+
+.bgnosotros {
+    background-color: hsla(219,23%,20%,1);
+}
+.bgfooter {
+    background: hsla(219,23%,20%,1);
+}
+
+.close-button i {
+    font-size:1em;
+    color:darken($color: red, $amount: 5);
+    border-radius: 50%;
+    text-shadow: $sombraTxt;
+}
+.accordion-title {
+    text-decoration: none;
+    color:black;
+    font-size:1em;
+    background-color:hsla(227,64%,69%,1);
+}
+.rrss i{
+    font-size: 2em;
+    margin: 10px;
+   color: white;
+}
+
+i {
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+.img-us {
+    width: 50%;
+    clip-path: circle(50% at 50% 50%);
+
+}
+.card-content-us {
+    color: white;
+    text-align: center;
+}
+.marca {
+    color: white;
+}
+[class=modal-content]{
+   background-color: grey;
+   text-justify: auto;
+}
