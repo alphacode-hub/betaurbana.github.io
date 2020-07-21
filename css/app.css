@@ -20993,8 +20993,10 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
+  .parrafo-servicio {
+    color: #404040; }
   .card {
-    color: #202020;
+    color: #4A4E4F;
     border-radius: 5%; }
   .card i {
     font-size: 4em; }
@@ -21005,6 +21007,9 @@ readers do not read off random characters that represent icons */
   .button {
     background-color: #7F94E3;
     border-radius: 5%; }
+  .button i {
+    font-size: 1em;
+    padding-left: 10px; }
   .enganche {
     font-style: italic;
     color: #4A4E4F; } }
@@ -21017,8 +21022,10 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
+  .parrafo-servicio {
+    color: #404040; }
   .card {
-    color: #202020;
+    color: #4A4E4F;
     border-radius: 5%; }
   .card i {
     font-size: 4em; }
@@ -21029,6 +21036,9 @@ readers do not read off random characters that represent icons */
   .button {
     background-color: #7F94E3;
     border-radius: 5%; }
+  .button i {
+    font-size: 1em;
+    padding-left: 10px; }
   .enganche {
     font-style: italic;
     color: #4A4E4F; } }
@@ -21041,8 +21051,10 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
+  .parrafo-servicio {
+    color: #404040; }
   .card {
-    color: #202020;
+    color: #4A4E4F;
     border-radius: 5%; }
   .card i {
     font-size: 4em; }
@@ -21053,6 +21065,9 @@ readers do not read off random characters that represent icons */
   .button {
     background-color: #7F94E3;
     border-radius: 5%; }
+  .button i {
+    font-size: 1em;
+    padding-left: 10px; }
   .enganche {
     font-style: italic;
     color: #4A4E4F; } }
@@ -21065,8 +21080,11 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
+  .parrafo-servicio {
+    color: #404040;
+    font-size: 1.2em; }
   .card {
-    color: #202020;
+    color: #4A4E4F;
     border-radius: 5%; }
   .card i {
     font-size: 4em; }
@@ -21077,10 +21095,13 @@ readers do not read off random characters that represent icons */
   .button {
     background-color: #7F94E3;
     border-radius: 5%; }
+  .button i {
+    font-size: 1em;
+    padding-left: 10px; }
   .enganche {
     font-style: italic;
     color: #4A4E4F;
-    font-size: 1.5em; } }
+    font-size: 1em; } }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
@@ -21294,9 +21315,15 @@ readers do not read off random characters that represent icons */
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .titulo-nosotros {
+    margin-top: 19%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .parrafo-nosotros {
+    color: #404040; }
+  .parrafo-nosotros span {
+    font-weight: 900;
     font-family: "Oswald", sans-serif; }
   .img-us {
     width: 90%;
@@ -21313,9 +21340,15 @@ readers do not read off random characters that represent icons */
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .titulo-nosotros {
+    margin-top: 10%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .parrafo-nosotros {
+    color: #404040; }
+  .parrafo-nosotros span {
+    font-weight: 900;
     font-family: "Oswald", sans-serif; }
   .img-us {
     width: 50%;
@@ -21332,9 +21365,15 @@ readers do not read off random characters that represent icons */
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
   .titulo-nosotros {
+    margin-top: 8%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .parrafo-nosotros {
+    color: #404040; }
+  .parrafo-nosotros span {
+    font-weight: 900;
     font-family: "Oswald", sans-serif; }
   .img-us {
     width: 70%;
@@ -21351,9 +21390,16 @@ readers do not read off random characters that represent icons */
 /* xLarge only */
 @media screen and (min-width: 75em) {
   .titulo-nosotros {
+    margin-top: 8%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: "Oswald", sans-serif; }
+  .parrafo-nosotros {
+    color: #404040;
+    font-size: 1.2em; }
+  .parrafo-nosotros span {
+    font-weight: 900;
     font-family: "Oswald", sans-serif; }
   .img-us {
     width: 70%;
@@ -21434,7 +21480,7 @@ readers do not read off random characters that represent icons */
     font-weight: bold; }
   .body-contacto i {
     color: #7F94E3;
-    font-size: 2em; } }
+    font-size: 1.5em; } }
 
 /* xLarge only */
 @media screen and (min-width: 75em) {
@@ -21457,7 +21503,7 @@ readers do not read off random characters that represent icons */
     font-weight: bold; }
   .body-contacto i {
     color: #7F94E3;
-    font-size: 2em; } }
+    font-size: 1.5em; } }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {

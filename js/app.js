@@ -23,7 +23,7 @@ function myFunctionSmall(small) {
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid white';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
-            if (scrollTop > 2500) {
+            if (scrollTop > 3000) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
