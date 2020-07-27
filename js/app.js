@@ -6,28 +6,28 @@ function myFunctionSmall(small) {
         $(window).scroll(function (event) {
             var scrollTop = $(window).scrollTop();
             if (scrollTop < 599) {
-                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 600) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 1500) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 3000) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid #E0E0E0';
             }
         });
     } 
@@ -44,28 +44,28 @@ function myFunctionMedium(medium) {
         $(window).scroll(function (event) {
             var scrollTop = $(window).scrollTop();
             if (scrollTop < 399) {
-                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 400) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 900) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
-            if (scrollTop > 1300) {
+            if (scrollTop > 1500) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid #E0E0E0';
             }
         });
     } 
@@ -82,28 +82,28 @@ function myFunctionLarge(large) {
         $(window).scroll(function (event) {
             var scrollTop = $(window).scrollTop();
             if (scrollTop < 399) {
-                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 400) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 900) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 1300) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid #E0E0E0';
             }
         });
     } 
@@ -120,28 +120,28 @@ function myFunctionXlarge(xlarge) {
         $(window).scroll(function (event) {
             var scrollTop = $(window).scrollTop();
             if (scrollTop < 399) {
-                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-inicio').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 400) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-servicios').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 900) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid #E0E0E0';
                 document.getElementById('menu-item-contacto').style.borderBottom = '5px solid transparent';
             }
             if (scrollTop > 1300) {
                 document.getElementById('menu-item-inicio').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-servicios').style.borderBottom = '5px solid transparent';
                 document.getElementById('menu-item-nosotros').style.borderBottom = '5px solid transparent';
-                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid white';
+                document.getElementById('menu-item-contacto').style.borderBottom = '5px solid #E0E0E0';
             }
         });
     } 

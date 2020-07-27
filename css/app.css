@@ -5730,10 +5730,10 @@ a.thumbnail image {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -20693,11 +20693,10 @@ readers do not read off random characters that represent icons */
     box-sizing: border-box;
     color: #E0E0E0;
     font-family: "Roboto Slab", serif;
-    background: #7F94E3 url("../static/img/textura.jpg") no-repeat scroll center;
-    background-size: cover;
+    background: #504F51;
     font-size: 1rem; }
   .bgbody {
-    background-color: rgba(127, 148, 227, 0.9); } }
+    background-color: rgba(80, 79, 81, 0.9); } }
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -20707,11 +20706,10 @@ readers do not read off random characters that represent icons */
     box-sizing: border-box;
     color: #E0E0E0;
     font-family: "Roboto Slab", serif;
-    background: #7F94E3 url("../static/img/textura.jpg") no-repeat scroll center;
-    background-size: cover;
+    background: #504F51;
     font-size: 1rem; }
   .bgbody {
-    background-color: rgba(127, 148, 227, 0.9); } }
+    background-color: rgba(80, 79, 81, 0.9); } }
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
@@ -20721,11 +20719,10 @@ readers do not read off random characters that represent icons */
     box-sizing: border-box;
     color: #E0E0E0;
     font-family: "Roboto Slab", serif;
-    background: #7F94E3 url("../static/img/textura.jpg") no-repeat scroll center;
-    background-size: cover;
+    background: #504F51;
     font-size: 1rem; }
   .bgbody {
-    background-color: rgba(127, 148, 227, 0.9); } }
+    background-color: rgba(80, 79, 81, 0.9); } }
 
 /* xLarge only */
 @media screen and (min-width: 75em) {
@@ -20735,71 +20732,79 @@ readers do not read off random characters that represent icons */
     box-sizing: border-box;
     color: #E0E0E0;
     font-family: "Roboto Slab", serif;
-    background: #7F94E3 url("../static/img/textura.jpg") no-repeat scroll center;
-    background-size: cover;
+    background: #504F51;
     font-size: 1rem; }
   .bgbody {
-    background-color: rgba(127, 148, 227, 0.9); } }
+    background-color: rgba(80, 79, 81, 0.9); } }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .imgheader {
-    background: #7F94E3 url("../static/img/urbanism.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/urbanism.jpg") no-repeat scroll center;
     background-size: cover;
     height: 100vh; }
   .imgheaderblur {
     background-color: rgba(32, 32, 32, 0.8);
     height: 100%; }
   .logo {
-    margin-top: 18%;
-    margin-bottom: 3%;
+    margin-top: 27%;
     clip-path: circle(50% at 50% 50%); }
-  .menu {
+  .bar-menu {
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #7F94E3;
+    background-color: #504F51;
+    width: 100vw;
+    padding: 10px 0;
+    box-shadow: 0 2px 2px #202020;
+    text-transform: uppercase;
+    font-size: .6em;
+    text-align: center;
+    font-weight: 900; }
+  .menu-icon {
+    margin-right: 5%; }
+  .top-bar, .top-bar-right {
+    background-color: #504F51; }
+    .top-bar li, .top-bar-right li {
+      background-color: #504F51; }
+  .menu-item {
+    border-bottom: 5px solid transparent;
+    transition: 1s; }
+    .menu-item:hover {
+      border-bottom: 5px solid white; }
+  .btn {
+    color: #E0E0E0; }
+    .btn:hover, .btn:visited {
+      color: #E0E0E0; } }
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .imgheader {
+    background: #504F51 url("../static/img/urbanism.jpg") no-repeat scroll center;
+    background-size: cover; }
+  .imgheaderblur {
+    background-color: rgba(32, 32, 32, 0.8);
+    height: 100%; }
+  .logo {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    clip-path: circle(50% at 50% 50%); }
+  .bar-menu {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #504F51;
     width: 100vw;
     padding: 10px 0;
     box-shadow: 0 2px 2px #202020;
     text-transform: uppercase;
     font-size: .7em;
     text-align: center;
-    font-weight: bold; }
-  .menu-item {
-    border-bottom: 5px solid transparent;
-    transition: 1s; }
-    .menu-item:hover {
-      border-bottom: 5px solid white; }
-  .btn {
-    color: #E0E0E0; }
-    .btn:hover, .btn:visited {
-      color: #E0E0E0; } }
-
-/* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  .imgheader {
-    background: #7F94E3 url("../static/img/urbanism.jpg") no-repeat scroll center;
-    background-size: cover; }
-  .imgheaderblur {
-    background-color: rgba(32, 32, 32, 0.8);
-    height: 100%; }
-  .logo {
-    margin-top: 10%;
-    margin-bottom: 3%;
-    clip-path: circle(50% at 50% 50%); }
-  .menu {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-    background-color: #7F94E3;
-    width: 100vw;
-    padding: 10px 0;
-    box-shadow: 0 2px 2px #202020;
-    text-transform: uppercase;
-    font-size: 1em;
-    text-align: center;
-    font-weight: bold; }
+    font-weight: 900; }
+  .top-bar, .top-bar-right {
+    background-color: #504F51; }
+    .top-bar li, .top-bar-right li {
+      background-color: #504F51; }
   .menu-item {
     border-bottom: 5px solid transparent;
     transition: 1s; }
@@ -20813,7 +20818,7 @@ readers do not read off random characters that represent icons */
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
   .imgheader {
-    background: #7F94E3 url("../static/img/urbanism.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/urbanism.jpg") no-repeat scroll center;
     background-size: cover; }
   .imgheaderblur {
     background-color: rgba(32, 32, 32, 0.8);
@@ -20822,18 +20827,22 @@ readers do not read off random characters that represent icons */
     margin-top: 10%;
     margin-bottom: 3%;
     clip-path: circle(50% at 50% 50%); }
-  .menu {
+  .bar-menu {
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #7F94E3;
+    background-color: #504F51;
     width: 100vw;
     padding: 10px 0;
     box-shadow: 0 2px 2px #202020;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: .7em;
     text-align: center;
-    font-weight: bold; }
+    font-weight: 900; }
+  .top-bar, .top-bar-right {
+    background-color: #504F51; }
+    .top-bar li, .top-bar-right li {
+      background-color: #504F51; }
   .menu-item {
     border-bottom: 5px solid transparent;
     transition: 1s; }
@@ -20847,29 +20856,32 @@ readers do not read off random characters that represent icons */
 /* xLarge only */
 @media screen and (min-width: 75em) {
   .imgheader {
-    background: #7F94E3 url("../static/img/urbanism.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/urbanism.jpg") no-repeat scroll center;
     background-size: cover;
     height: 100vh; }
   .imgheaderblur {
     background-color: rgba(32, 32, 32, 0.8);
     height: 100%; }
   .logo {
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 3%;
-    width: 10%;
     clip-path: circle(50% at 50% 50%); }
-  .menu {
+  .bar-menu {
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #7F94E3;
+    background-color: #504F51;
     width: 100vw;
     padding: 10px 0;
     box-shadow: 0 2px 2px #202020;
     text-transform: uppercase;
-    font-size: 1.3em;
+    font-size: .9em;
     text-align: center;
-    font-weight: bold; }
+    font-weight: 900; }
+  .top-bar, .top-bar-right {
+    background-color: #504F51; }
+    .top-bar li, .top-bar-right li {
+      background-color: #504F51; }
   .menu-item {
     border-bottom: 5px solid transparent;
     transition: 1s; }
@@ -20889,13 +20901,14 @@ readers do not read off random characters that represent icons */
     font-size: 3.7em;
     font-weight: bold;
     font-family: "Oswald", sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: -1%; }
   .item-subtitulo {
     font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: -10%;
-    color: #7F94E3; }
+    color: #7E95E3; }
   .descripcion {
     padding-top: 10%; }
   .rrss i {
@@ -20920,7 +20933,7 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     margin-top: -5%;
-    color: #7F94E3; }
+    color: #7E95E3; }
   .descripcion {
     padding-top: 10%;
     margin-top: -7%; }
@@ -20947,7 +20960,7 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     margin-top: -3%;
-    color: #7F94E3; }
+    color: #7E95E3; }
   .descripcion {
     padding-top: 10%;
     margin-top: -10%; }
@@ -20974,7 +20987,7 @@ readers do not read off random characters that represent icons */
     font-weight: bold;
     text-transform: uppercase;
     margin-top: -10%;
-    color: #7F94E3; }
+    color: #7E95E3; }
   .descripcion {
     padding-top: 10%;
     margin-top: -10%; }
@@ -20994,10 +21007,11 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
   .parrafo-servicio {
-    color: #404040; }
+    color: #E0E0E0; }
   .card {
-    color: #4A4E4F;
-    border-radius: 5%; }
+    color: #202020;
+    border-radius: 5%;
+    background-color: #BDCBD5; }
   .card i {
     font-size: 4em; }
   .title-card {
@@ -21005,14 +21019,20 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Roboto Slab", serif; }
   .button {
-    background-color: #7F94E3;
+    background-color: #504F51;
     border-radius: 5%; }
+    .button:hover {
+      background-color: #6E6A59;
+      color: #E0E0E0; }
+    .button:focus {
+      background-color: #EBC31E;
+      color: #202020; }
   .button i {
     font-size: 1em;
     padding-left: 10px; }
   .enganche {
     font-style: italic;
-    color: #4A4E4F; } }
+    color: #EBC31E; } }
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -21023,10 +21043,11 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
   .parrafo-servicio {
-    color: #404040; }
+    color: #E0E0E0; }
   .card {
-    color: #4A4E4F;
-    border-radius: 5%; }
+    color: #202020;
+    border-radius: 5%;
+    background-color: #BDCBD5; }
   .card i {
     font-size: 4em; }
   .title-card {
@@ -21034,14 +21055,20 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Roboto Slab", serif; }
   .button {
-    background-color: #7F94E3;
+    background-color: #504F51;
     border-radius: 5%; }
+    .button:hover {
+      background-color: #6E6A59;
+      color: #E0E0E0; }
+    .button:focus {
+      background-color: #EBC31E;
+      color: #202020; }
   .button i {
     font-size: 1em;
     padding-left: 10px; }
   .enganche {
     font-style: italic;
-    color: #4A4E4F; } }
+    color: #EBC31E; } }
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
@@ -21052,10 +21079,11 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
   .parrafo-servicio {
-    color: #404040; }
+    color: #E0E0E0; }
   .card {
-    color: #4A4E4F;
-    border-radius: 5%; }
+    color: #202020;
+    border-radius: 5%;
+    background-color: #BDCBD5; }
   .card i {
     font-size: 4em; }
   .title-card {
@@ -21063,14 +21091,20 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Roboto Slab", serif; }
   .button {
-    background-color: #7F94E3;
+    background-color: #504F51;
     border-radius: 5%; }
+    .button:hover {
+      background-color: #6E6A59;
+      color: #E0E0E0; }
+    .button:focus {
+      background-color: #EBC31E;
+      color: #202020; }
   .button i {
     font-size: 1em;
     padding-left: 10px; }
   .enganche {
     font-style: italic;
-    color: #4A4E4F; } }
+    color: #EBC31E; } }
 
 /* xLarge only */
 @media screen and (min-width: 75em) {
@@ -21081,36 +21115,40 @@ readers do not read off random characters that represent icons */
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
   .parrafo-servicio {
-    color: #404040;
-    font-size: 1.2em; }
+    color: #E0E0E0; }
   .card {
-    color: #4A4E4F;
-    border-radius: 5%; }
+    color: #202020;
+    border-radius: 5%;
+    background-color: #BDCBD5; }
   .card i {
     font-size: 4em; }
   .title-card {
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-family: "Roboto Slab", serif; }
   .button {
-    background-color: #7F94E3;
+    background-color: #504F51;
     border-radius: 5%; }
+    .button:hover {
+      background-color: #6E6A59;
+      color: #E0E0E0; }
+    .button:focus {
+      background-color: #EBC31E;
+      color: #202020; }
   .button i {
     font-size: 1em;
     padding-left: 10px; }
   .enganche {
     font-style: italic;
-    color: #4A4E4F;
-    font-size: 1em; } }
+    color: #EBC31E; } }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .reveal {
     font-family: "Roboto Slab", serif;
-    color: #7F94E3;
-    background: #202020; }
+    color: #E0E0E0;
+    background: #504F51; }
   .modal-titulo {
-    padding-top: 10%;
     font-family: "Oswald", sans-serif;
     font-size: 1.9em;
     font-weight: bold;
@@ -21130,22 +21168,23 @@ readers do not read off random characters that represent icons */
   .close-button i {
     color: red; }
   .accordion {
-    background: #404040; }
+    background: #BDCBD5; }
   .accordion-title {
     text-decoration: none;
     font-size: 1em;
-    color: #7F94E3;
+    color: #202020;
+    font-weight: 900;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
-    .accordion-title:hover, .accordion-title:active, .accordion-title:visited {
-      background: #E0E0E0;
-      color: #7F94E3; }
+    .accordion-title:hover, .accordion-title:focus {
+      background: #7E95E3;
+      color: #E0E0E0; }
   .accordion-content {
     font-family: "Roboto Slab", serif; }
   .accordion-content h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    color: #7F94E3; }
+    color: #504F51; }
   .exampleModal1 {
     background: #202020 url("../static/svg/law.svg") no-repeat scroll bottom;
     background-size: 50% 50%; }
@@ -21160,8 +21199,8 @@ readers do not read off random characters that represent icons */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .reveal {
     font-family: "Roboto Slab", serif;
-    color: #7F94E3;
-    background: #202020; }
+    color: #E0E0E0;
+    background: #504F51; }
   .modal-titulo {
     font-family: "Oswald", sans-serif;
     font-size: 1.9em;
@@ -21182,22 +21221,23 @@ readers do not read off random characters that represent icons */
   .close-button i {
     color: red; }
   .accordion {
-    background: #404040; }
+    background: #BDCBD5; }
   .accordion-title {
     text-decoration: none;
     font-size: 1em;
-    color: #7F94E3;
+    color: #202020;
+    font-weight: 900;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
-    .accordion-title:hover, .accordion-title:active, .accordion-title:visited {
-      background: #E0E0E0;
-      color: #7F94E3; }
+    .accordion-title:hover, .accordion-title:focus {
+      background: #7E95E3;
+      color: #E0E0E0; }
   .accordion-content {
     font-family: "Roboto Slab", serif; }
   .accordion-content h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    color: #7F94E3; }
+    color: #504F51; }
   .exampleModal1 {
     background: #202020 url("../static/svg/law.svg") no-repeat scroll bottom;
     background-size: 50% 50%; }
@@ -21212,8 +21252,8 @@ readers do not read off random characters that represent icons */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
   .reveal {
     font-family: "Roboto Slab", serif;
-    color: #7F94E3;
-    background: #202020; }
+    color: #E0E0E0;
+    background: #504F51; }
   .modal-titulo {
     font-family: "Oswald", sans-serif;
     font-size: 1.9em;
@@ -21234,22 +21274,23 @@ readers do not read off random characters that represent icons */
   .close-button i {
     color: red; }
   .accordion {
-    background: #404040; }
+    background: #BDCBD5; }
   .accordion-title {
     text-decoration: none;
     font-size: 1em;
-    color: #7F94E3;
+    color: #202020;
+    font-weight: 900;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
-    .accordion-title:hover, .accordion-title:active, .accordion-title:visited {
-      background: #E0E0E0;
-      color: #7F94E3; }
+    .accordion-title:hover, .accordion-title:focus {
+      background: #7E95E3;
+      color: #E0E0E0; }
   .accordion-content {
     font-family: "Roboto Slab", serif; }
   .accordion-content h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    color: #7F94E3; }
+    color: #504F51; }
   .exampleModal1 {
     background: #202020 url("../static/svg/law.svg") no-repeat scroll bottom;
     background-size: 50% 50%; }
@@ -21264,8 +21305,8 @@ readers do not read off random characters that represent icons */
 @media screen and (min-width: 75em) {
   .reveal {
     font-family: "Roboto Slab", serif;
-    color: #7F94E3;
-    background: #202020; }
+    color: #E0E0E0;
+    background: #504F51; }
   .modal-titulo {
     font-family: "Oswald", sans-serif;
     font-size: 1.9em;
@@ -21286,22 +21327,23 @@ readers do not read off random characters that represent icons */
   .close-button i {
     color: red; }
   .accordion {
-    background: #404040; }
+    background: #BDCBD5; }
   .accordion-title {
     text-decoration: none;
     font-size: 1em;
-    color: #7F94E3;
+    color: #202020;
+    font-weight: 900;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif; }
-    .accordion-title:hover, .accordion-title:active, .accordion-title:visited {
-      background: #E0E0E0;
-      color: #7F94E3; }
+    .accordion-title:hover, .accordion-title:focus {
+      background: #7E95E3;
+      color: #E0E0E0; }
   .accordion-content {
     font-family: "Roboto Slab", serif; }
   .accordion-content h1 {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
-    color: #7F94E3; }
+    color: #504F51; }
   .exampleModal1 {
     background: #202020 url("../static/svg/law.svg") no-repeat scroll bottom;
     background-size: 50% 50%; }
@@ -21314,14 +21356,17 @@ readers do not read off random characters that represent icons */
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
+  .bgnosotros {
+    background-color: #7E95E3; }
   .titulo-nosotros {
     margin-top: 19%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #202020; }
   .parrafo-nosotros {
-    color: #404040; }
+    color: #202020; }
   .parrafo-nosotros span {
     font-weight: 900;
     font-family: "Oswald", sans-serif; }
@@ -21339,14 +21384,17 @@ readers do not read off random characters that represent icons */
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+  .bgnosotros {
+    background-color: #7E95E3; }
   .titulo-nosotros {
     margin-top: 10%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #202020; }
   .parrafo-nosotros {
-    color: #404040; }
+    color: #202020; }
   .parrafo-nosotros span {
     font-weight: 900;
     font-family: "Oswald", sans-serif; }
@@ -21364,14 +21412,17 @@ readers do not read off random characters that represent icons */
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
+  .bgnosotros {
+    background-color: #7E95E3; }
   .titulo-nosotros {
     margin-top: 8%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #202020; }
   .parrafo-nosotros {
-    color: #404040; }
+    color: #202020; }
   .parrafo-nosotros span {
     font-weight: 900;
     font-family: "Oswald", sans-serif; }
@@ -21389,15 +21440,17 @@ readers do not read off random characters that represent icons */
 
 /* xLarge only */
 @media screen and (min-width: 75em) {
+  .bgnosotros {
+    background-color: #7E95E3; }
   .titulo-nosotros {
     margin-top: 8%;
     font-size: 3em;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "Oswald", sans-serif; }
+    font-family: "Oswald", sans-serif;
+    color: #202020; }
   .parrafo-nosotros {
-    color: #404040;
-    font-size: 1.2em; }
+    color: #202020; }
   .parrafo-nosotros span {
     font-weight: 900;
     font-family: "Oswald", sans-serif; }
@@ -21416,7 +21469,7 @@ readers do not read off random characters that represent icons */
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .imgcontact {
-    background: #7F94E3 url("../static/img/architecture.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/architecture.jpg") no-repeat scroll center;
     background-size: cover; }
   .imgcontactblur {
     background-color: rgba(32, 32, 32, 0.8);
@@ -21430,16 +21483,16 @@ readers do not read off random characters that represent icons */
     font-size: 1em; }
   .body-contacto a {
     text-transform: none;
-    color: #7F94E3;
+    color: #EBC31E;
     font-weight: bold; }
   .body-contacto i {
-    color: #7F94E3;
+    color: #EBC31E;
     font-size: 2em; } }
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .imgcontact {
-    background: #7F94E3 url("../static/img/architecture.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/architecture.jpg") no-repeat scroll center;
     background-size: cover; }
   .imgcontactblur {
     background-color: rgba(32, 32, 32, 0.8);
@@ -21453,16 +21506,16 @@ readers do not read off random characters that represent icons */
     font-size: 1em; }
   .body-contacto a {
     text-transform: none;
-    color: #7F94E3;
+    color: #EBC31E;
     font-weight: bold; }
   .body-contacto i {
-    color: #7F94E3;
+    color: #EBC31E;
     font-size: 2em; } }
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
   .imgcontact {
-    background: #7F94E3 url("../static/img/architecture.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/architecture.jpg") no-repeat scroll center;
     background-size: cover; }
   .imgcontactblur {
     background-color: rgba(32, 32, 32, 0.8);
@@ -21476,16 +21529,16 @@ readers do not read off random characters that represent icons */
     font-size: 1.5em; }
   .body-contacto a {
     text-transform: none;
-    color: #7F94E3;
+    color: #EBC31E;
     font-weight: bold; }
   .body-contacto i {
-    color: #7F94E3;
+    color: #EBC31E;
     font-size: 1.5em; } }
 
 /* xLarge only */
 @media screen and (min-width: 75em) {
   .imgcontact {
-    background: #7F94E3 url("../static/img/architecture.jpg") no-repeat scroll center;
+    background: #504F51 url("../static/img/architecture.jpg") no-repeat scroll center;
     background-size: cover; }
   .imgcontactblur {
     background-color: rgba(32, 32, 32, 0.8);
@@ -21499,16 +21552,15 @@ readers do not read off random characters that represent icons */
     font-size: 1.5em; }
   .body-contacto a {
     text-transform: none;
-    color: #7F94E3;
+    color: #EBC31E;
     font-weight: bold; }
   .body-contacto i {
-    color: #7F94E3;
+    color: #EBC31E;
     font-size: 1.5em; } }
 
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   .marca {
-    color: #202020;
     font-weight: bold;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase; } }
@@ -21516,7 +21568,6 @@ readers do not read off random characters that represent icons */
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
   .marca {
-    color: #202020;
     font-weight: bold;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase; } }
@@ -21524,7 +21575,6 @@ readers do not read off random characters that represent icons */
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
   .marca {
-    color: #202020;
     font-weight: bold;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase; } }
@@ -21532,7 +21582,6 @@ readers do not read off random characters that represent icons */
 /* xLarge only */
 @media screen and (min-width: 75em) {
   .marca {
-    color: #202020;
     font-weight: bold;
     font-family: "Oswald", sans-serif;
     text-transform: uppercase; } }
